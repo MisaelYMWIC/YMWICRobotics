@@ -8,7 +8,6 @@ void movearm(int distance)
     while (gmpc(0) < distance)
     {
         motor(0, 50);
-        motor(3, 50);
     }
     ao();
 }
